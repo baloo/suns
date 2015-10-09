@@ -114,7 +114,6 @@ main(int argc, char *const argv[])
 	} else {
 		const char *ptr;
 
-		nspath = netspec;
 		ptr = strchr(netspec, '/');
 
 		if (!ptr) {
